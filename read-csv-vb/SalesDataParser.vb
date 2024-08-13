@@ -6,7 +6,7 @@ Module Program
     Sub Main()
         Dim startTime As DateTime = DateTime.Now
 
-        Using reader As New StreamReader("C:\compilers\sales_data.csv")
+        Using reader As New StreamReader("sales_data.csv")
             Dim totalSales As Double = 0.0
 
             Dim toplSales As Double = 0.0
