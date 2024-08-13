@@ -119,6 +119,17 @@ time python sales.py #windows
 #or
 time python3 sales.py #mac/linux
 ```
+### Read CSV VB
+vbc Program.vb -out:VBProg.exe
+VBProg.exe
+Note: Input file in same directory
+
+
+### Read CSV C#
+csc Sales2.cs -out:Sales-cs.exe
+Sales-cs.exe
+
+Note: Input file in same directory
 
 ## Results
 Here you should include the results of your benchmarks, such as execution time and any other relevant metrics.
@@ -142,6 +153,9 @@ Here you should include the results of your benchmarks, such as execution time a
 - Python Execution time: X.XX seconds
 - Total Sales: $Y.YY
 - Top Product: Product Z with sales $ZZ.ZZ
+
+### Python
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE)  file for details.
