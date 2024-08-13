@@ -8,7 +8,7 @@ class Program
     {
         var startTime = DateTime.Now;
 
-        using (var reader = new StreamReader("C:\\compilers\\sales_data.csv"))
+        using (var reader = new StreamReader("sales_data.csv"))
         {
             var totalSales = 0.0;
 
