@@ -9,7 +9,9 @@ Processing large CSV files efficiently is a common requirement in many applicati
 - Node.js 22.x with NestJS
 - PHP 8.3.x
 - Python 3.12.x
-
+- Java
+- C#
+- VB.Net
 ## Project Tree
  * [generate-csv](./generate-csv)
    * [generate_csv.go](./generate-csv/generate_csv.go)
